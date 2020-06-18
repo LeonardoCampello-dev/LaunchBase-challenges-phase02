@@ -2,11 +2,6 @@
     <img src="https://camo.githubusercontent.com/268b1344409fac98c4eeda520482b6910c4ddcba/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f676f6c64656e2d77696e642f626f6f7463616d702d6c61756e6368626173652f6c6f676f2e706e67">
 </h1>
 
-## Indice 
-- [Desafio 1-1](#center-desafio-1-1-primeiros-passos-com-js-center)
-- [Desafio 1-2](#center-desafio-1-2-lidando-com-objetos-e-vetores-center)
-- [Desafio 1-3](#center-desafio-1-3-funções-e-estruturas-de-repetição-center)
-
 ## 🚀 Tecnologias utilizadas 
 
 Os desafios foram feitos usando a seguinte tecnologia
@@ -49,3 +44,15 @@ Os desafios foram feitos usando a seguinte tecnologia
 - [x] Estruturas de repetição;
 - [x] Escopos.
 ---
+
+## <center> Desafio 1-4: Aplicação: Operações bancárias </center>
+
+### 🎯 **Atividades**
+
+- Operações bancárias;
+
+### 📚 **Conceitos estudados**
+- [x] Booleanos;
+- [x] Organização;
+- [x] Padronização;
+- [x] Escrita. 
