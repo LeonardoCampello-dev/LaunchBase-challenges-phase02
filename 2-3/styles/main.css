@@ -38,11 +38,11 @@ header .links a:hover {
 }
 
 .container-home {
-    background-image: url(/assets/background.jpg);
+    background-image: url(/2-3/assets/background.jpg);
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
 }
 
 .page-home {
@@ -118,7 +118,7 @@ aside {
 .container-home .footer-home {
     width: 100%;
     height: 50px;
-    position: absolute;
+    position: fixed;
     bottom: 5%;
 }
 
