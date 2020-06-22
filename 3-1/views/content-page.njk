@@ -1,0 +1,81 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+
+<link rel="stylesheet" href="/styles/content-page.css">
+<link rel="stylesheet" href="/styles/modal.css">
+<title>Conteúdos</title>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="page-title">
+        <h1>Cursos</h1>
+    </div>
+    <div class="content-page">
+        <section class="card" id="starter">
+            <div class="card-content">
+                <h1 class="purple">01</h1>
+                <img src="/assets/Starter.svg" alt="Starter">
+                <p>
+                    <strong class="purple">Torne-se um programador desejado</strong>
+                    no mercado com esses cursos gratuitos
+                </p>
+                <div class="card-footer">
+                    <h3>Módulos: 20</h3>
+                    <a class="price">Free</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="card" id="launchbase">
+            <div class="card-content">
+                <h1 class="orange">02</h1>
+                <img src="/assets/LaunchBase.svg" alt="LaunchBase">
+                <p>
+                    <strong class="orange">Domine a programação do zero</strong>
+                    e tenha acesso às melhores oportunidades do mercado</p>
+                <div class="card-footer">
+                    <h3>Módulos: 50</h3>
+                    <a class="price">$$$</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="card" id="gostack">
+            <div class="card-content">
+                <h1 class="green">03</h1>
+                <img src="/assets/GoStack.svg" alt="GoStack">
+                <p>
+                    <strong class="green">Treinamento imersivo</strong>
+                    nas tecnologias mais modernas de desenvolvimento web e mobile</p>
+                <div class="card-footer">
+                    <h3>Módulos: 38</h3>
+                    <a class="price">$$$</a>
+                </div>
+            </div>
+            <a href="https://rocketseat.com.br/gostack" target="_blank">
+                <p>
+                    <strong>Garanta a sua vaga</strong>
+                    para a próxima turma!</p>
+            </a>
+        </section>
+    </div>
+</div>
+
+<div class="modal-overlay">
+    <div class="modal">
+        <div class="modal-content">
+            <a class="close-modal">
+                <i class="material-icons">cancel</i>
+            </a>
+            <iframe src="" frameborder="0"></iframe>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+
+{% endblock %}

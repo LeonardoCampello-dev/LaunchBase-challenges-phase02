@@ -1,0 +1,136 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap";
+
+:root {
+    --rocketseat-color: #7159c1;
+    --green: #04d361;
+    --orange: #fd951f;
+    --white: #FFFFFF;
+    --text-color: #87868b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header .links {
+    background-color: var(--rocketseat-color);
+    padding: 24px;
+}
+
+header .links a {
+    color: var(--white);
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    margin-left: 48px;
+}
+
+header .links a:hover {
+    color: #f0f0f0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.container-home {
+    background-image: url(/assets/background.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.page-home {
+    width: 80%;
+    margin: 48px auto 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.page-home .image-content img {
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.page-home .image-content img:hover {
+    border-color: #FFCC4D;
+    transition: border-color 300ms;
+}
+
+.page-home .image-content h1 {
+    font-size: 48px;    
+    line-height: 58px;
+    font-weight: bold;
+    color: var(--white);
+    text-shadow: 1px 1px var(--rocketseat-color);
+    margin-top: 8px;
+}
+
+.page-home .image-content h2 {
+    color: var(--white);
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 8px;
+    font-weight: normal;
+    opacity: 0.9
+}
+
+aside {
+    width: 40%;
+    background-color: var(--rocketseat-color);
+    margin-left: 48px;
+    border-radius: 8px;
+    padding: 48px;
+}
+
+.card-list .list-content ul {
+    list-style: none;
+    margin-bottom: 48px;
+}
+
+#list-title {
+    text-shadow: 2px 2px #87868b;
+    margin-bottom: 24px;
+}
+
+.card-list .list-content ul li a {
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFCC4D;
+}
+
+.card-list .list-content ul li a:hover {
+    border-bottom: 1px solid #FFCC4D;
+    transition: color 400ms;
+}
+
+.card-list .list-content img {
+    margin-top: 48px;
+}
+
+.container-home .footer-home {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 5%;
+}
+
+.container-home .footer-home ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 400px;
+} 
+
+.container-home .footer-home ul li {
+    margin-left: 30px;
+}
+

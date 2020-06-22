@@ -1,0 +1,41 @@
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal-overlay .modal {
+    background-color: #190029;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    margin: 5vh auto;
+}
+
+.modal-overlay .close-modal {
+    color: #b51105;
+    top: 8px;
+    right: 8px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.modal-overlay.active {
+    visibility: visible;
+    opacity: 1;
+}
+/* ============================== IFRAME ============================== */
+
+.modal-content iframe {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 4%;
+}
+
