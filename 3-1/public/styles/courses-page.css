@@ -45,15 +45,15 @@ section.card {
     padding: 54px;
 }
 
-section#starter:hover {
+section#Starter:hover {
     border: 2px solid var(--rocketseat-color);
 }
 
-section#launchbase:hover {
+section#Launchbase:hover {
     border: 2px solid var(--orange);
 }
 
-section#gostack:hover {
+section#Gostack:hover {
     border: 2px solid var(--green);
 }
 
@@ -123,10 +123,10 @@ section#gostack:hover {
     text-shadow: 1px 1px #0E0D11;
 }
 
-.card#launchbase .card-content .card-footer a {
+.card#Launchbase .card-content .card-footer a {
     background-color: var(--orange);
 }
 
-.card#gostack .card-content .card-footer a {
+.card#Gostack .card-content .card-footer a {
     background-color: var(--green);
 }

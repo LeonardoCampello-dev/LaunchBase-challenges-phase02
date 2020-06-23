@@ -2,21 +2,24 @@ const express = require('express')
 const nunjucks = require('nunjucks') 
 
 const server = express()
+const courses = require('./courses-data')
 
 server.use(express.static("public"))
 
 server.set("view engine", "njk")
 
 nunjucks.configure("views", {
-    express: server
+    express: server,
+    autoescape: false
 })  
 
 server.get("/", (req, res) => {    
-    res.render("page-home")
+
+    res.render("about")
 })
 
-server.get("/content-page", (req, res) => {    
-    res.render("content-page")
+server.get("/courses-page", (req, res) => {    
+    res.render("courses-page", { items: courses })
 })
 
 server.use(function(req, res) {
@@ -24,5 +27,5 @@ server.use(function(req, res) {
 })
 
 server.listen(5000, () => {
-    console.log("Server ON")
+    console.log("Server: on")
 })
