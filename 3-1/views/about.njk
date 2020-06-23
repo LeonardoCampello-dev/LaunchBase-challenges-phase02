@@ -5,9 +5,9 @@
 <div class="container-home">
     <div class="page-home">
         <div class="image-content">
-            <img src="https://avatars1.githubusercontent.com/u/28929274?s=280&v=4" alt="rocketseat">
-            <h1>Rocketseat</h1>
-            <h2>As melhores tecnologias em programação, direto ao ponto e do jeito certo.</h2>
+            <img src="{{ about.img_url }}" alt="{{ about.company }}">
+            <h1>{{ about.company }}</h1>
+            <h2>{{ about.description }}</h2>
         </div>
 
         <aside>
@@ -17,41 +17,34 @@
                         <li>
                             <h2 id="list-title">Tecnologias 🚀</h2>
                         </li>
+
+                        {% for technology in about.technologies %}
+
                         <li>
-                            <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">JavaScript</a>
+                            <a href="{{ technology.url }}" target="_blank">{{ technology.name }}</a>
                         </li>
-                        <li>
-                            <a href="https://nodejs.org/en/" target="_blank">Node.js</a>
-                        </li>
-                        <li>
-                            <a href="https://pt-br.reactjs.org/" target="_blank">ReactJS</a>
-                        </li>
-                        <li>
-                            <a href="https://reactnative.dev/" target="_blank">React Native</a>
-                        </li>
+
+                        {% endfor %}
+
                     </ul>
                 </div>
-                <img src="/assets/trofeu-home.svg" alt="Tecnologias">
+                <img src="/assets/{{ about.list_img }}.svg" alt="{{ about.list_img }}">
             </div>
         </aside>
 
         <div class="footer-home">
             <ul>
+            
+                {% for link in about.links %}
+                
                 <li>
-                    <a href="https://github.com/Rocketseat" target="_blank">
-                        <img src="https://img.icons8.com/nolan/64/github.png"/>
+                    <a href="{{ link.url }}" target="_blank">
+                        <img src="{{ link.img }}"/>
                     </a>
                 </li>
-                <li>
-                    <a href="https://www.instagram.com/rocketseat_oficial/?hl=pt-br" target="_blank">
-                        <img src="https://img.icons8.com/nolan/64/instagram-new.png"/>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/rocketseat" target="_blank">
-                        <img src="https://img.icons8.com/nolan/64/facebook-circled.png"/>
-                    </a>
-                </li>
+
+                {% endfor %}
+
             </ul>
         </div>
     </div>
