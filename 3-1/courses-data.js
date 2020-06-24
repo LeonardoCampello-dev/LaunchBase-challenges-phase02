@@ -1,7 +1,7 @@
 module.exports = [
     {
         card_number: "01",
-        image: "Starter",
+        id: "Starter",
         description: '<strong class="purple">Torne-se um programador desejado</strong> no mercado com esses cursos gratuitos',
         modules: "20",
         price: "Free",
@@ -9,7 +9,7 @@ module.exports = [
     },
     {
         card_number: "02",
-        image: "Launchbase",
+        id: "Launchbase",
         description: '<strong class="orange">Domine a programação do zero</strong> e tenha acesso às melhores oportunidades do mercado',
         modules: "50",
         price: "$$$",
@@ -17,7 +17,7 @@ module.exports = [
     },
     {
         card_number: "03",
-        image: "Gostack",
+        id: "Gostack",
         description: '<strong class="green">Treinamento imersivo</strong> nas tecnologias mais modernas de desenvolvimento web e mobile',
         modules: "72",
         price: "$$$",

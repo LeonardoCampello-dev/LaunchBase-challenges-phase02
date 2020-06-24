@@ -19,10 +19,10 @@
 
         {% for item in items %}
 
-        <section class="card" id="{{ item.image }}">
+        <section class="card" id="{{ item.id }}">
             <div class="card-content">
                 <h1 class="{{ item.color }}">{{ item.card_number }}</h1>
-                <img src="/assets/{{ item.image }}.svg" alt="{{ item.image }}">
+                <img src="/assets/{{ item.id }}.svg" alt="{{ item.id }}">
                 <p>{{ item.description }}</p>
                 <div class="card-footer">
                     <h3>Módulos: {{ item.modules }}</h3>
@@ -37,16 +37,6 @@
     </div>
 </div>
 
-<div class="modal-overlay">
-    <div class="modal">
-        <div class="modal-content">
-            <a class="close-modal">
-                <i class="material-icons">cancel</i>
-            </a>
-            <iframe src="" frameborder="0"></iframe>
-        </div>
-    </div>
-</div>
 <script src="script.js"></script>
 
 {% endblock %}
