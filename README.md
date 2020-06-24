@@ -257,3 +257,21 @@ module.exports = [
 ]
 
 ```
+---
+
+## <center> Desafio 3-3: Página de descrição do curso </center>
+
+### 👨‍🍳 **Atividades**
+
+- Nesse desafio você deve criar uma página de descrição do curso que deve ser chamada no lugar da modal quando o usuário clicar no card do curso.
+
+### 📚 **Conceitos estudados**
+
+- [x] Rotas;
+- [x] Route params;
+- [x] Iteração de Array;
+- [x] Template Engine.
+
+### 🔨 Resultados
+
+[![Image from Gyazo](https://i.gyazo.com/8e7553cfed725c379a7ecbd7a5b8696b.gif)](https://gyazo.com/8e7553cfed725c379a7ecbd7a5b8696b)

@@ -96,6 +96,10 @@ section#Gostack:hover {
     text-align: center;
 }
 
+Section#Gostack p {
+    width: 100%;
+}
+
 .card a p:hover {
     color: var(--white);
     background-color: rgba(0, 0, 0, 0.5);
@@ -129,4 +133,17 @@ section#Gostack:hover {
 
 .card#Gostack .card-content .card-footer a {
     background-color: var(--green);
+}
+
+/* =========  /:id =========*/
+
+.course-description p {
+    font-size: 18px;
+    color: #FFF;
+    background-color: #0E0D11;
+    width: 450px;
+    margin-left: 25%;
+    border: 2px solid var(--rocketseat-color);
+    border-radius: 15px;
+    padding: 10.5%;
 }

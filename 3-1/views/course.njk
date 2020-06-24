@@ -2,10 +2,9 @@
 
 {% block head %}
 
-
 <link rel="stylesheet" href="/styles/courses.css">
-<link rel="stylesheet" href="/styles/modal.css">
-<title>Cursos</title>
+
+<title>{{ item.id }}</title>
 
 {% endblock %}
 
@@ -13,11 +12,9 @@
 
 <div class="container">
     <div class="page-title">
-        <h1>Cursos</h1>
+        <h1>{{ item.id }}</h1>
     </div>
     <div class="content-page">
-
-        {% for item in items %}
 
         <section class="card" id="{{ item.id }}">
             <div class="card-content">
@@ -31,12 +28,11 @@
             </div>
             {{ item.vacancy }}
         </section>
-
-        {% endfor %}
+        <section class="course-description">
+            <p>{{ item.text }}</p>
+        </section>
 
     </div>
 </div>
-
-<script src="script.js"></script>
 
 {% endblock %}

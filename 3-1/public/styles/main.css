@@ -6,6 +6,7 @@
     --orange: #fd951f;
     --white: #FFFFFF;
     --text-color: #87868b;
+    --trofeu: #FFCC4D;
 }
 
 * {
@@ -59,7 +60,7 @@ header .links a:hover {
 }
 
 .page-home .image-content img:hover {
-    border-color: #FFCC4D;
+    border-color: var(--trofeu);
     transition: border-color 300ms;
 }
 
@@ -95,7 +96,7 @@ aside {
 }
 
 #list-title {
-    text-shadow: 2px 2px #87868b;
+    text-shadow: 2px 2px var(--text-color);
     margin-bottom: 24px;
 }
 
@@ -103,11 +104,11 @@ aside {
     font-size: 18px;
     line-height: 28px;
     text-decoration: none;
-    color: #FFCC4D;
+    color: var(--trofeu);
 }
 
 .card-list .list-content ul li a:hover {
-    border-bottom: 1px solid #FFCC4D;
+    border-bottom: 1px solid var(--trofeu);
     transition: color 400ms;
 }
 
@@ -132,5 +133,9 @@ aside {
 
 .container-home .footer-home ul li {
     margin-left: 30px;
+}
+
+.container-home .footer-home ul li:hover {
+    border-bottom: 2px solid var(--trofeu);
 }
 
