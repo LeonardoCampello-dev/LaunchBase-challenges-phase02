@@ -11,11 +11,8 @@ Os desafios foram feitos usando as seguintes tecnologias
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
----
 
 ## <center> 👨‍💻 Introdução à programação WEB </center>
-
----
 
 ## <center> Desafio 1-1: Primeiros passos com JS </center>
 
@@ -28,7 +25,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 - [x] Variáveis;
 - [x] Condicionais;
 - [x] Operadores.
----
+
 ## <center> Desafio 1-2: Lidando com objetos e vetores </center>
 
 ### 🎯 **Atividades**
@@ -39,7 +36,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 ### 📚 **Conceitos estudados**
 - [x] Objetos; 
 - [x] Vetores.
----
+
 ## <center> Desafio 1-3: Funções e estruturas de repetição </center>
 
 ### 🎯 **Atividades**
@@ -52,7 +49,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 - [x] Funções e métodos;
 - [x] Estruturas de repetição;
 - [x] Escopos.
----
+
 
 ## <center> Desafio 1-4: Aplicação: Operações bancárias </center>
 
@@ -74,8 +71,6 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ## <center> 🎀 Iniciando no Front-end </center>
 
----
-
 ## <center> Desafio 2-1: Primeiro HTML </center>
 
 ### 🎨 **Atividades**
@@ -88,8 +83,6 @@ Os desafios foram feitos usando as seguintes tecnologias
 - [x] Background;
 - [x] Fontes;
 - [x] Espaçamentos. 
-
----
 
 ## <center> Desafio 2-2: Página de descrição </center>
 
@@ -132,8 +125,6 @@ Os desafios foram feitos usando as seguintes tecnologias
 ---
 
 ## <center> 📅 Iniciando no Back-end </center>
-
----
 
 ## <center> Desafio 3-1: Primeiro servidor </center>
 
