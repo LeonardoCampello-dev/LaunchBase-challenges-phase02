@@ -266,3 +266,11 @@ module.exports = [
 ### 🔨 Resultados
 
 [![Image from Gyazo](https://i.gyazo.com/8e7553cfed725c379a7ecbd7a5b8696b.gif)](https://gyazo.com/8e7553cfed725c379a7ecbd7a5b8696b)
+
+# 📜 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+---
+
+Feito com 💚 by Leonardo Campello
