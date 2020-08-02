@@ -94,7 +94,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ### 🔨 Resultados
 
-![Home](/previews/home.gif)
+![Home](/.github/home.gif)
 
 ---
 
@@ -114,7 +114,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ### 🔨 Resultados
 
-![Courses](/previews/courses.gif)
+![Courses](/.github/courses.gif)
 
 ---
 
@@ -138,7 +138,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ### 🔨 Resultados
 
-![404](/previews/404.gif)
+![404](/.github/404.gif)
 
 ---
 
@@ -155,93 +155,6 @@ Os desafios foram feitos usando as seguintes tecnologias
 - [x] Estruturas condicionais;
 - [x] Template Engine.
 
-
-#### 📁 Arquivos utilizados
-
-**courses.njk**
-
-``` html 
-
-{% extends "layout.njk" %}
-
-{% block head %}
-
-
-<link rel="stylesheet" href="/styles/courses-page.css">
-<link rel="stylesheet" href="/styles/modal.css">
-<title>Cursos</title>
-
-{% endblock %}
-
-{% block content %}
-
-<div class="container">
-    <div class="page-title">
-        <h1>Cursos</h1>
-    </div>
-    <div class="content-page">
-
-        {% for item in items %}
-
-        <section class="card" id="{{ item.id }}">
-            <div class="card-content">
-                <h1 class="{{ item.color }}">{{ item.card_number }}</h1>
-                <img src="/assets/{{ item.id }}.svg" alt="{{ item.id }}">
-                <p>{{ item.description }}</p>
-                <div class="card-footer">
-                    <h3>Módulos: {{ item.modules }}</h3>
-                    <a class="price {{ item.color }}">{{ item.price }}</a>
-                </div>
-            </div>
-            {{ item.vacancy }}
-        </section>
-
-        {% endfor %}
-
-    </div>
-</div>
-
-<script src="script.js"></script>
-
-{% endblock %}
-
-```
-
----
-
-**courses-data.js**
-
-``` js
-
-module.exports = [
-    {
-        card_number: "01",
-        id: "Starter",
-        description: '<strong class="purple">Torne-se um programador desejado</strong> no mercado com esses cursos gratuitos',
-        modules: "20",
-        price: "Free",
-        color: "purple"
-    },
-    {
-        card_number: "02",
-        id: "Launchbase",
-        description: '<strong class="orange">Domine a programação do zero</strong> e tenha acesso às melhores oportunidades do mercado',
-        modules: "50",
-        price: "$$$",
-        color: "orange"
-    },
-    {
-        card_number: "03",
-        id: "Gostack",
-        description: '<strong class="green">Treinamento imersivo</strong> nas tecnologias mais modernas de desenvolvimento web e mobile',
-        modules: "72",
-        price: "$$$",
-        vacancy: '<a href="https://rocketseat.com.br/gostack" target="_blank"><p><strong>Garanta a sua vaga</strong> para a próxima turma!</p></a>',
-        color: "green"
-    }
-]
-
-```
 ---
 
 ## <center> **Desafio 3-3:** Página de descrição do curso </center>
@@ -259,7 +172,7 @@ module.exports = [
 
 ### 🔨 Resultados
 
-![Details](/previews/details.gif)
+![Details](/.github/details.gif)
 
 # 📜 Licença
 
