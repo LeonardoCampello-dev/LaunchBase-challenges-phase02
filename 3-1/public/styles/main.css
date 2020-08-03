@@ -1,11 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap";
 
 :root {
-    --rocketseat-color: #7159c1;
+    --purple: #7159c1;
     --green: #04d361;
     --orange: #fd951f;
-    --white: #FFFFFF;
-    --text-color: #87868b;
     --trofeu: #FFCC4D;
 }
 
@@ -13,23 +11,39 @@
     margin: 0;
     padding: 0;
     border: 0;
+
     box-sizing: border-box;
+    
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html, body {
+    min-height: 100vh;
+    width: 100%;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background-image: url(/assets/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
+
+/* HEADER */
+
 header .links {
-    background-color: var(--rocketseat-color);
-    padding: 24px;
+    background-color: var(--purple);
+    padding: 24px 0;
 }
 
 header .links a {
-    color: var(--white);
+    color: #fff;
     font-size: 20px;
     line-height: 30px;
-    text-decoration: none;
     margin-left: 48px;
 }
 
@@ -38,104 +52,112 @@ header .links a:hover {
     border-bottom: 2px solid rgba(0, 0, 0, 0.6);
 }
 
-.container-home {
-    background-image: url(/assets/background.jpg);
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    position: fixed;
+/* CONTAINER */
+
+.container {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 48px auto;
 }
 
-.page-home {
-    width: 80%;
-    margin: 48px auto 100px;
-    text-align: center;
-    display: flex;
+/* HOME CONTAINER */
+
+.home {
+    display: grid;
+    grid-template-columns: 70% 30%;
     align-items: center;
 }
 
-.page-home .image-content img {
+/* BIG IMAGE */
+
+.rocketseat-image {
+    text-align: center;
+}
+
+.rocketseat-image img {
     border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 2px -2px #fff;
 }
 
-.page-home .image-content img:hover {
-    border-color: var(--trofeu);
-    transition: border-color 300ms;
-}
-
-.page-home .image-content h1 {
+.rocketseat-image h1 {
     font-size: 48px;    
     line-height: 58px;
     font-weight: bold;
-    color: var(--white);
-    text-shadow: 1px 1px var(--rocketseat-color);
+    color: #fff;
+    text-shadow: 1px 1px var(--purple);
     margin-top: 8px;
 }
 
-.page-home .image-content h2 {
-    color: var(--white);
-    font-size: 24px;
-    line-height: 34px;
+.rocketseat-image h2 {
+    color: var(--purple);
+    font-size: 20px;
+    line-height: 26px;
+    opacity: 0.9;
     margin-top: 8px;
-    font-weight: normal;
-    opacity: 0.9
 }
 
-aside {
-    width: 40%;
-    background-color: var(--rocketseat-color);
-    margin-left: 48px;
+/* SOCIAL */
+
+.social {
+    margin: 24px auto 0;
+}
+
+.social img {
+    width: 56px;
+    height: 56px;
+}
+
+
+/* CARD LIST */
+
+.technologies {
+    background-color: var(--purple);
     border-radius: 8px;
-    padding: 48px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.card-list .list-content ul {
-    list-style: none;
-    margin-bottom: 48px;
+.technologies h2 {
+    letter-spacing: 0.7px;
+    text-shadow: 1px 1px #ccc;
+    margin-bottom: 8px;
 }
 
-#list-title {
-    text-shadow: 2px 2px var(--text-color);
-    margin-bottom: 24px;
-}
-
-.card-list .list-content ul li a {
+.technologies .list ul li a {
     font-size: 18px;
     line-height: 28px;
-    text-decoration: none;
     color: var(--trofeu);
 }
 
-.card-list .list-content ul li a:hover {
-    border-bottom: 1px solid var(--trofeu);
-    transition: color 400ms;
+.technologies .list ul li a:hover {
+    color: #efefef;
+    transition: 200ms;
 }
 
-.card-list .list-content img {
-    margin-top: 48px;
+.technologies img {
+    margin-top: 24px;
 }
 
-.container-home .footer-home {
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    bottom: 5%;
+/* FOOTER */
+
+
+footer {
+    margin-top: auto;
 }
 
-.container-home .footer-home ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    margin-right: 400px;
-} 
-
-.container-home .footer-home ul li {
-    margin-left: 30px;
+footer div {
+    text-align: center;
 }
 
-.container-home .footer-home ul li:hover {
-    border-bottom: 2px solid var(--trofeu);
+footer div p {
+    color: #efefef;
+    font-size: 16px;
+    line-height: 26px;
 }
+
+
 

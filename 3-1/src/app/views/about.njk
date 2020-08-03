@@ -2,52 +2,50 @@
 
 {% block content %}
 
-<div class="container-home">
-    <div class="page-home">
-        <div class="image-content">
-            <img src="{{ about.img_url }}" alt="{{ about.company }}">
-            <h1>{{ about.company }}</h1>
-            <h2>{{ about.description }}</h2>
-        </div>
+<section class="home">
 
-        <aside>
-            <div class="card-list">
-                <div class="list-content">
-                    <ul>
-                        <li>
-                            <h2 id="list-title">Tecnologias 🚀</h2>
-                        </li>
+    <div class="rocketseat-image">
+        <img src="{{ about.img_url }}" alt="{{ about.company }}">
 
-                        {% for technology in about.technologies %}
+        <h1>{{ about.company }}</h1>
+        <h2>{{ about.description }}</h2>
 
-                        <li>
-                            <a href="{{ technology.url }}" target="_blank">{{ technology.name }}</a>
-                        </li>
+        <div class="social">
 
-                        {% endfor %}
+            {% for link in about.links %}
 
-                    </ul>
-                </div>
-                <img src="/assets/{{ about.list_img }}.svg" alt="{{ about.list_img }}">
-            </div>
-        </aside>
+                <a href="{{ link.url }}" target="_blank">
+                    <img src="{{ link.img }}"/>
+                </a>
 
-        <div class="footer-home">
-            <ul>
-            
-                {% for link in about.links %}
-                
-                <li>
-                    <a href="{{ link.url }}" target="_blank">
-                        <img src="{{ link.img }}"/>
-                    </a>
-                </li>
+            {% endfor %}
 
-                {% endfor %}
-
-            </ul>
         </div>
     </div>
-</div>
+
+    <div class="technologies">
+        <div class="list">
+
+            <ul>
+                <li>
+                    <h2>Tecnologias 🚀</h2>
+                </li>
+
+                {% for technology in about.technologies %}
+                    <li>
+                        <a href="{{ technology.url }}" target="_blank">{{ technology.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+
+        <img src="/assets/{{ about.list_img }}.svg" alt="{{ about.list_img }}">
+
+    </div>
+
+</section>
+
+
 
 {% endblock %}

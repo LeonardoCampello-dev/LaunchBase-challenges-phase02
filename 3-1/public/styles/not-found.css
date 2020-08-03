@@ -21,7 +21,7 @@ body {
 .container-404 h1 {
     font-size: 48px;
     font-family: 'Indie Flower', cursive;
-    color: #d17a00;
+    color: var(--purple);
     text-shadow: 2px 2px #000;
 }
 
@@ -32,8 +32,3 @@ body {
     height: 440px;
     border-radius: 15px;
 }
-
-.container-404 img:hover {
-    border: 2px solid #d17a00;
-}
-

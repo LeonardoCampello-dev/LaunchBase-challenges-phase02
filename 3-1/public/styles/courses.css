@@ -1,13 +1,8 @@
-.container {
-    background-image: url(/assets/background.jpg);
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-}
+
+/* COLORS CLASS */
 
 .purple {
-    color: var(--rocketseat-color);
+    color: var(--purple);
 }
 
 .orange {
@@ -18,42 +13,46 @@
     color: var(--green);
 }
 
+/* PAGE TITLE */
+
 .page-title {
     text-align: center;
-    margin-top: 48px;
-    color: var(--white);
 }
 
 .page-title h1 {
+    color: #efefef;
     font-size: 48px;
-    text-shadow: 2px 2px var(--rocketseat-color);
+    text-shadow: 1px 1px var(--purple);
 }
 
-.content-page {
-    width: 80%;
-    margin: 48px auto 0;
+/* COURSES */
+
+.courses {
+    margin: 48px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-
 }
 
-section.card {
-    height: 600px;
+/* CARDS */
+
+.card {
+    max-width: 450px;
+    min-height: 600px;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 8px;
-    padding: 54px;
+    padding: 56px;
 }
 
-section#Starter:hover {
-    border: 2px solid var(--rocketseat-color);
+#Starter:hover {
+    border: 2px solid var(--purple);
 }
 
-section#Launchbase:hover {
+#Launchbase:hover {
     border: 2px solid var(--orange);
 }
 
-section#Gostack:hover {
+#Gostack:hover {
     border: 2px solid var(--green);
 }
 
@@ -63,45 +62,44 @@ section#Gostack:hover {
     align-items: center;
 }
 
+.card-content h1 {
+    margin-bottom: 80px;
+}
+
 .card-content .card-image {
     width: 90%;
     margin: 24px auto;
 }
 
-.card-content h1 {
-    margin-bottom: 90px;
-}
-
 .card-content p {
-    font-size: 16px;
-    line-height: 26px;
-    color: var(--text-color);
-    margin-top: 36px;
-    text-align: center;
     width: 90%;
     height: 48px;
+    color: #ccc;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 36px;
 }
 
 .card a {
-    text-decoration: none;
     color: #0E0D11;
 }
 
 .card a p {
-    margin-top: 24px;
-    font-size: 15px;
     background-color: var(--green);
+    font-size: 15px;
     padding: 15px;
     border-radius: 4px;
     text-align: center;
+    margin-top: 24px;
 }
 
-Section#Gostack p {
+#Gostack p {
     width: 100%;
 }
 
 .card a p:hover {
-    color: var(--white);
+    color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid var(--green);
     transition: 200ms;
@@ -115,13 +113,13 @@ Section#Gostack p {
 }
 
 .card .card-content .card-footer h3 {
-    color: var(--white);
-    margin-right: 50px;
+    color: #fff;
+    margin-right: 48px;
 }
 
 .card .card-content .card-footer a {
-    color: var(--white);
-    background-color: var(--rocketseat-color);
+    color: #fff;
+    background-color: var(--purple);
     padding: 8px 36px;
     border-radius: 4px;
     text-shadow: 1px 1px #0E0D11;
@@ -137,13 +135,17 @@ Section#Gostack p {
 
 /* =========  /:id =========*/
 
+.course {
+    grid-template-columns: 1fr 1fr;
+}
+
 .course-description p {
     font-size: 18px;
     color: #FFF;
     background-color: #0E0D11;
     width: 450px;
     margin-left: 25%;
-    border: 2px solid var(--rocketseat-color);
+    border: 2px solid var(--purple);
     border-radius: 15px;
     padding: 10.5%;
 }
