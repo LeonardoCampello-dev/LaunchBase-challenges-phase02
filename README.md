@@ -2,6 +2,30 @@
     <img src="https://camo.githubusercontent.com/268b1344409fac98c4eeda520482b6910c4ddcba/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f676f6c64656e2d77696e642f626f6f7463616d702d6c61756e6368626173652f6c6f676f2e706e67">
 </h1>
 
+## 📌 Índice dos desafios 🏆
+
+Introdução à programação WEB 💻 
+
+- [x] [1-1: Primeiros passos com JS](#center-desafio-1-1-primeiros-passos-com-js-center)
+- [x] [1-2: Lidando com objetos e vetores](#center-desafio-1-2-lidando-com-objetos-e-vetores-center)
+- [x] [1-3: Funções e estruturas de repetição](#center-desafio-1-3-funções-e-estruturas-de-repetição-center) 
+- [x] [1-4: Aplicação: Operações bancárias](#center-desafio-1-4-aplicação-operações-bancárias-center)
+
+Iniciando no Front-end 🎀 
+
+- [x] [2-1: Primeiro HTML](#center-desafio-2-1-primeiro-html-center)
+- [x] [2-2: Página de descrição](#center-desafio-2-2-página-de-descrição-center)
+- [x] [2-3: Página de cursos e iframe](#center-desafio-2-3-página-de-cursos-e-iframe-center)
+  
+
+Iniciando no Back-end 📅 
+
+- [x] [3-1: Primeiro servidor](#center-desafio-3-1-primeiro-servidor-center)
+- [x] [3-2: Arquivos nunjucks e dados dinâmicos](#center-desafio-3-2-arquivos-nunjucks-e-dados-dinâmicos-center)
+- [x] [3-3: Página de descrição do curso](#center-desafio-3-3-página-de-descrição-do-curso-center)
+
+
+
 ## 🚀 Tecnologias utilizadas 
 
 Os desafios foram feitos usando as seguintes tecnologias
@@ -94,7 +118,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ### 🔨 Resultados
 
-![Home](/.github/home.gif)
+![home](.github/home.png)
 
 ---
 
@@ -114,7 +138,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ### 🔨 Resultados
 
-![Courses](/.github/courses.gif)
+![courses](.github/courses.png)
 
 ---
 
@@ -138,7 +162,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ### 🔨 Resultados
 
-![404](/.github/404.gif)
+![404](.github/404.png)
 
 ---
 
@@ -172,7 +196,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ### 🔨 Resultados
 
-![Details](/.github/details.gif)
+![course](.github/course.png)
 
 # 📜 Licença
 
