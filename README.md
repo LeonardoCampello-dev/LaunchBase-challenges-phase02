@@ -2,6 +2,10 @@
     <img src="https://camo.githubusercontent.com/268b1344409fac98c4eeda520482b6910c4ddcba/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f676f6c64656e2d77696e642f626f6f7463616d702d6c61756e6368626173652f6c6f676f2e706e67">
 </h1>
 
+![author](https://img.shields.io/badge/Autor-Leonardo%20Campello-orange)
+![license](https://img.shields.io/github/license/LeonardoCampello-dev/LaunchBase-challenges-phase02)
+![GitHub repo size](https://img.shields.io/github/repo-size/LeonardoCampello-dev/LaunchBase-challenges-phase02)
+
 ## 📌 Índice dos desafios 🏆
 
 Introdução à programação WEB 💻 
@@ -34,9 +38,9 @@ Os desafios foram feitos usando as seguintes tecnologias
 - **[Node.js](https://nodejs.org/en/)**
 - **[Nunjucks](https://mozilla.github.io/nunjucks/)**
 
-## <center> 💻 Introdução à programação WEB </center>
+## 💻 Introdução à programação WEB 
 
-## <center> **Desafio 1-1:** Primeiros passos com JS </center>
+## **Desafio 1-1:** Primeiros passos com JS 
 
 ### 👨‍💻 **Atividades**
 
@@ -48,7 +52,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 - [x] Condicionais;
 - [x] Operadores.
 
-## <center> **Desafio 1-2:** Lidando com objetos e vetores </center>
+## **Desafio 1-2:** Lidando com objetos e vetores 
 
 ### 👨‍💻 **Atividades**
 
@@ -59,7 +63,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 - [x] Objetos; 
 - [x] Vetores.
 
-## <center> **Desafio 1-3:** Funções e estruturas de repetição </center>
+## **Desafio 1-3:** Funções e estruturas de repetição 
 
 ### 👨‍💻 **Atividades**
 
@@ -73,7 +77,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 - [x] Escopos.
 
 
-## <center> **Desafio 1-4:** Aplicação: Operações bancárias </center>
+## **Desafio 1-4:** Aplicação: Operações bancárias 
 
 ### 👨‍💻 **Atividades**
 
@@ -87,9 +91,9 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 --- 
 
-## <center> 🎀 Iniciando no Front-end </center>
+## 🎀 Iniciando no Front-end 
 
-## <center> **Desafio 2-1:** Primeiro HTML </center>
+## **Desafio 2-1:** Primeiro HTML 
 
 ### 🎨 **Atividades**
 
@@ -102,7 +106,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 - [x] Fontes;
 - [x] Espaçamentos. 
 
-## <center> **Desafio 2-2:** Página de descrição </center>
+## **Desafio 2-2:** Página de descrição 
 
 ### 🎨 **Atividades**
 
@@ -122,7 +126,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ---
 
-## <center> **Desafio 2-3:** Página de cursos e iframe </center>
+## **Desafio 2-3:** Página de cursos e iframe 
 
 ### 🎨 **Atividades**
 
@@ -142,9 +146,9 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ---
 
-## <center> 📅 Iniciando no Back-end </center>
+## 📅 Iniciando no Back-end 
 
-## <center> **Desafio 3-1:** Primeiro servidor </center>
+## **Desafio 3-1:** Primeiro servidor 
 
 ### 👨‍🍳 **Atividades**
 
@@ -166,7 +170,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ---
 
-## <center> **Desafio 3-2:** Arquivos nunjucks e dados dinâmicos </center>
+## **Desafio 3-2:** Arquivos nunjucks e dados dinâmicos 
 
 ### 👨‍🍳 **Atividades**
 
@@ -181,7 +185,7 @@ Os desafios foram feitos usando as seguintes tecnologias
 
 ---
 
-## <center> **Desafio 3-3:** Página de descrição do curso </center>
+## **Desafio 3-3:** Página de descrição do curso 
 
 ### 👨‍🍳 **Atividades**
 
